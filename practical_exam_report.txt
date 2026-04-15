@@ -1,0 +1,20 @@
+==================================================
+SESSION 17: PRACTICAL EXAM REPORT
+Operator: [Name Here]
+==================================================
+TASK 1 (FIND): What single command did you use to 
+find all .log files owned by root?
+[Type command here]
+
+TASK 2 (MV): What command did you use to move the 
+found files into ~/Exam_Submission?
+[Type command here]
+
+TASK 3 (HARDENING): What command did you use to change 
+the moved files to read-only (444)?
+[Type command here]
+
+TASK 4 (OSI): Which layer handles the logical 
+addressing (IP)?
+[Type Answer Here]
+==================================================
