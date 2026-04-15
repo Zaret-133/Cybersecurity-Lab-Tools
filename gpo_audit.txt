@@ -1,0 +1,15 @@
+==================================================
+SESSION 14: GROUP POLICY AUDIT REPORT
+==================================================
+
+Question 1: What does LSDOU stand for?
+
+Answer: Local, Site, Domain, and Organizational Unit.
+
+Question 2: In what order are Group Policies processed?
+
+Answer: They are processed in the order of Local first, then Site, then Domain, and finally Organizational Unit (OU).
+
+Question 3: Which policy takes precedence if there is a conflict?
+
+Answer: The policy closest to the user—the Organizational Unit (OU)—takes precedence and wins in a conflict.
