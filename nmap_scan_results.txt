@@ -20,4 +20,5 @@ QUESTIONS:
 Answer: I used the -sV flag. This tells Nmap to perform service/version detection.
 
 2. Why is it dangerous to run an intense scan (like -A) on a fragile legacy system?
-Answer: 
+Answer: Running an intense scan like -A is dangerous on a fragile legacy system becuase it sends a largenumber of aggressive probes (OS detection, version detection, scripts, traceroute). This can overwhelm the system's
+Limited resources, cause crashes or service disruptions, trigger security defenses, or even lead data corruption. 
