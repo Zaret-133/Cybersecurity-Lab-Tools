@@ -1,0 +1,23 @@
+==================================================
+SESSION 20: NETWORK ENUMERATION MAP
+Target Subnet: 172.99.0.0/24
+==================================================
+
+HOST 1 (172.99.0.5)
+* Open Ports: 80/tcp
+* Service/Version: Apache httpd (httpd:alpine)
+
+HOST 2 (172.99.0.6)
+* Open Ports: 6379/tcp
+* Service/Version: Redis key-value store (redis:alpine)
+
+HOST 3 (172.99.0.7)
+* Open Ports: 80/tcp
+* Service/Version: nginx (nginx:alpine)
+
+QUESTIONS:
+1. What Nmap flag did you use to find the specific software versions running on these ports?
+Answer: I used the -sV flag. This tells Nmap to perform service/version detection.
+
+2. Why is it dangerous to run an intense scan (like -A) on a fragile legacy system?
+Answer: 
