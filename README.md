@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Cybersecurity+Engineer+in+Progress;Turning+Automation+into+Security;Defending+Systems+%7C+Analyzing+Threats;Linux+%7C+Networking+%7C+Docker+%7C+Active+Directory" />
+  <img src="https://img.shields.io/badge/Cybersecurity%20Fellowship-Knowledge%20House-blueviolet?style=for-the-badge"/>
 </p>
 
 <p align="center">
