@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <b>🚀 QA Automation Engineer → Cybersecurity | 🔐 Security Automation | 🛡️ Blue Team</b>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Cybersecurity%20Fellowship-Knowledge%20House-blueviolet?style=for-the-badge"/>
 </p>
 
@@ -26,7 +30,7 @@
 
 ## 🛡️ About Me
 
-I am a **QA Automation Engineer transitioning into Cybersecurity** through the **Knowledge House Innovation Fellowship — Cybersecurity Track**.
+I am a QA Automation Engineer transitioning into Cybersecurity through the Knowledge House Innovation Fellowship — Cybersecurity Track, with hands-on experience in security labs, automation, and infrastructure hardening.
 
 My portfolio focuses on hands-on labs in Linux security, networking, Python automation, Docker infrastructure, Active Directory, reconnaissance, and vulnerability analysis.
 
