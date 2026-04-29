@@ -1,4 +1,12 @@
-# 👋 Hi, I'm Zaret Cortorreal
+<h1 align="center">👩‍💻 Zaret Perez</h1>
+
+<p align="center">
+  <b>Cybersecurity Engineer in Progress | QA Automation → Security</b>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=35&center=true&vCenter=true&width=800&lines=Zaret+Perez;Cybersecurity+Engineer;Security+Automation+%7C+QA+Background" />
+</p>
 
 <p align="center">
   <b>QA Automation Engineer | Cybersecurity Fellow | Security Automation</b>
