@@ -1,9 +1,3 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=CYBERSECURITY&fontSize=45&fontColor=00F7FF&animation=fadeIn" />
-</p>
-
-<h2 align="center">👩‍💻 Zaret Cortorreal</h2>
-
 # ✨ Cybersecurity Portfolio ✨
 
 <p align="center">
