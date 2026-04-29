@@ -49,19 +49,68 @@ Hands-on experience with:
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Projects & Lab Artifacts
 
-🔍 **Security Automation Toolkit**  
-Python scripts for port scanning, log analysis, and threat detection  
+<details>
+<summary><b>🔍 Security Automation & Forensic Auditing</b> (Python)</summary>
 
-🌐 **Network Security Analysis**  
-Subnetting, DNS auditing, routing, and service enumeration  
+* [cite_start]**Objective**: Shift from manual operator to builder by codifying security tasks into repeatable, automated instruments[cite: 1962, 1964].
+* **Key Artifacts**:
+    * [cite_start]`port_check.py`: Custom socket-based scanner to identify open ports on target hosts[cite: 468, 1975].
+    * [cite_start]`brute_detector.py`: Forensic log parser that filters failed password attempts into structured reports[cite: 523, 2192].
+    * [cite_start]`system_auditor.py`: Automation script that detects unauthorized processes and exports machine-readable JSON alerts[cite: 572, 635].
+* [cite_start]**Core Skills**: Logic gates, context managers (File I/O), and subprocess management for real-time system interrogation[cite: 444, 501, 583].
+</details>
 
-🐳 **Infrastructure & Docker Security**  
-Container deployment, Docker Compose, and environment isolation  
+<details>
+<summary><b>🌐 Network Security & Protocol Interrogation</b> (OSI L1-L7)</summary>
 
-🏢 **Enterprise Security (Active Directory)**  
-User provisioning, Group Policy auditing, and identity management  
+* [cite_start]**Objective**: Master network boundaries and remediate advanced deceptions at the Data Link, Network, and Application layers[cite: 1931, 1942].
+* **Key Artifacts**:
+    * [cite_start]`network_audit.txt`: Forensic path restoration and default gateway remediation[cite: 232, 1935].
+    * [cite_start]`subnet_blueprint.txt`: Mathematical network mapping using CIDR notation and binary octet conversion[cite: 244, 1941].
+    * [cite_start]`protocol_audit.txt`: DNS deception remediation and discovery of cloaked services on non-standard ports[cite: 293, 1947].
+* [cite_start]**Core Skills**: Packet tracing, socket statistics, and CIDR boundary analysis[cite: 230, 265, 324].
+</details>
+
+<details>
+<summary><b>🐳 Infrastructure Hardening & Virtualization</b> (Docker & Hypervisors)</summary>
+
+* [cite_start]**Objective**: Architect secure enterprise environments using isolated sandboxes and segmented container stacks[cite: 1999, 2004].
+* **Key Artifacts**:
+    * [cite_start]`docker-compose.yml`: Deployment of an air-gapped WordPress stack with isolated FrontEnd and BackEnd networks[cite: 894, 2025].
+    * [cite_start]`deploy_web.sh`: Bash automation for the rapid deployment and total destruction of disposable web servers[cite: 820, 2020].
+    * [cite_start]`sandbox_report.txt`: Configuration of Host-Only air-gapped environments for safe malware detonation[cite: 737, 2014].
+* [cite_start]**Core Skills**: Container orchestration, network segmentation, and Type 1 vs Type 2 hypervisor configuration[cite: 757, 925, 2011].
+</details>
+
+<details>
+<summary><b>🏢 Enterprise Security & Identity Management</b> (Active Directory)</summary>
+
+* [cite_start]**Objective**: Manage the "Identity Perimeter" through centralized governance and unified cross-platform authentication[cite: 2045, 2047].
+* **Key Artifacts**:
+    * [cite_start]`onboard_engineers.ps1`: PowerShell automation to programmatically provision users and manage AD hierarchy[cite: 1100, 2060].
+    * [cite_start]`gpo_audit.txt`: Documentation of Group Policy enforcement and the LSDOU inheritance model[cite: 1211, 2065].
+    * [cite_start]`unified_identity.png`: Forensic proof of a Linux-to-Windows bridge using SSSD for unified Kerberos authentication[cite: 1350, 2073].
+* [cite_start]**Core Skills**: Forest/Domain architecture, PowerShell scripting, and cross-OS sudoers bridge configuration[cite: 1148, 1186, 1388].
+</details>
+
+<details>
+<summary><b>🎯 Perimeter Reconnaissance & Risk Triage</b> (Sprint 2)</summary>
+
+* [cite_start]**Objective**: Map an organization's digital footprint and prioritize vulnerabilities based on Risk = Likelihood x Impact[cite: 2142, 2145].
+* **Key Artifacts**:
+    * [cite_start]`ThreatProfile_CloudNano.md`: Passive OSINT mapping of subdomains, tech stacks, and credential leaks[cite: 1807, 2148].
+    * [cite_start]`nmap_scan_results.txt`: Active service interrogation and software version mapping across isolated subnets[cite: 1833, 2152].
+    * [cite_start]`remediation_plan.md`: Strategic triage of scan results into actionable, risk-justified engineering plans[cite: 1859, 2157].
+* [cite_start]**Core Skills**: Passive/Active reconnaissance, CVE/CVSS interpretation, and Nikto web application auditing[cite: 1805, 1851, 2164].
+</details>
+
+---
+
+## 🛠️ Skills & Certifications
+* [cite_start]**Cybersecurity Track**: Knowledge House Innovation Fellowship (2026)[cite: 1, 1412].
+* [cite_start]**Technical Focus**: SOC Analysis, Blue Team Operations, and Security Automation[cite: 1, 1966].
 
 ---
 
