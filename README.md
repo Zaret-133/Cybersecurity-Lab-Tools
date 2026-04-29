@@ -32,6 +32,17 @@ My portfolio focuses on hands-on labs in Linux security, networking, Python auto
 
 ---
 
+---
+
+## 🧠 Cybersecurity Lab Architecture
+
+This portfolio represents a simulated enterprise environment where multiple security domains work together to detect, analyze, and respond to threats.
+
+### 🔗 System Flow
+
+```text
+User → Linux System → Network Layer → Detection Scripts → Infrastructure → Identity Management → Recon & Analysis
+
 <p align="center">
   🚀 Building practical cybersecurity skills through real-world labs and automation
 </p>
