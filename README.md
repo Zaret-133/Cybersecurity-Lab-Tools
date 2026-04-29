@@ -10,17 +10,6 @@
   <b>QA Automation Engineer → Cybersecurity | Security Automation | Blue Team</b>
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Cybersecurity+Engineer+in+Progress;QA+Automation+%E2%9E%A1%EF%B8%8F+Security;Security+Automation+%7C+Blue+Team+Skills;Linux+%7C+Networking+%7C+Docker+%7C+Active+Directory" />
-</p>    
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=CYBERSECURITY&fontSize=60&animation=fadeIn&fontColor=00F7FF&fontAlignY=35" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Cybersecurity+Engineer+in+Progress;QA+Automation+%E2%9E%A1%EF%B8%8F+Security;Security+Automation+%7C+Blue+Team+Skills;Linux+%7C+Networking+%7C+Docker+%7C+Active+Directory" />
-</p>
 
 ---
 
