@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>🚀 QA Automation Engineer → Cybersecurity | 🔐 Security Automation | 🛡️ Blue Team | ⚙️ SOC Focus</b>
+  <b>🚀 QA Automation → Cybersecurity | 🔐 Security Automation | 🛡️ Blue Team | ⚙️ SOC</b>
 </p>
 
 <p align="center">
