@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=CYBERSECURITY&fontSize=45&fontColor=00F7FF&animation=fadeIn" />
 </p>
 
-<h2 align="center">👩‍💻 Zaret Perez</h2>
+<h2 align="center">👩‍💻 Zaret Cortorreal</h2>
 
 <p align="center">
   <b>Cybersecurity Engineer in Progress | QA Automation → Security</b>
