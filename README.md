@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Cybersecurity%20Fellowship-Knowledge%20House-blueviolet?style=for-the-badge"/>
+</p>
+
+<p align="center">
   <b>🔐 Security Automation | 🛡️ Blue Team | ⚙️ SOC Focus</b>
 </p>
 
