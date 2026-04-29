@@ -28,7 +28,6 @@ This portfolio represents a simulated enterprise environment where multiple secu
 
 ### 🔗 System Flow
 
-```text
 User → Linux System → Network Layer → Detection Scripts → Infrastructure → Identity Management → Recon & Analysis
 
 <p align="center">
@@ -36,6 +35,7 @@ User → Linux System → Network Layer → Detection Scripts → Infrastructure
 </p>
 
 ---
+
 ## 🛠️ Toolkit
 
 <p align="center">
@@ -60,6 +60,7 @@ User → Linux System → Network Layer → Detection Scripts → Infrastructure
   * `brute_detector.py`: Filters failed login attempts into forensic reports.
   * `port_check.py`: Socket-based scanner for checking open ports.
   * `system_auditor.py`: Detects unauthorized processes and exports JSON alerts.
+
 </details>
 
 <details>
@@ -70,6 +71,7 @@ User → Linux System → Network Layer → Detection Scripts → Infrastructure
   * `network_audit.txt`: Network restoration and routing analysis.
   * `subnet_blueprint.txt`: CIDR and subnet boundary analysis.
   * `protocol_audit.txt`: DNS deception and service discovery audit.
+
 </details>
 
 <details>
@@ -80,6 +82,7 @@ User → Linux System → Network Layer → Detection Scripts → Infrastructure
   * `docker-compose.yml`: Segmented stack with frontend/backend isolation.
   * `deploy_web.sh`: Bash automation for disposable web server deployment.
   * `sandbox_report.txt`: Host-only VM isolation and sandbox validation.
+
 </details>
 
 <details>
@@ -90,6 +93,7 @@ User → Linux System → Network Layer → Detection Scripts → Infrastructure
   * `onboard_engineers.ps1`: PowerShell user provisioning.
   * `gpo_audit.txt`: Group Policy enforcement and LSDOU analysis.
   * `unified_identity.png`: Linux-to-Windows identity integration proof.
+
 </details>
 
 <details>
@@ -100,6 +104,7 @@ User → Linux System → Network Layer → Detection Scripts → Infrastructure
   * `ThreatProfile_CloudNano.md`: Passive OSINT and target profiling.
   * `nmap_scan_results.txt`: Active service discovery and version mapping.
   * `remediation_plan.md`: Risk-based remediation planning.
+
 </details>
 
 ---
@@ -107,6 +112,7 @@ User → Linux System → Network Layer → Detection Scripts → Infrastructure
 ## 🎓 Training
 
 **Knowledge House Innovation Fellowship — Cybersecurity Track (2026)**
+
 ### 🛡️ Training Roadmap: 20-Week Cybersecurity Fellowship
 
 | Module | Technical Focus | Core Artifact |
@@ -118,6 +124,7 @@ User → Linux System → Network Layer → Detection Scripts → Infrastructure
 | **Recon** | OSINT & Active Scanning | [nmap_scan_results.txt](./Week-07-Reconnaissance/nmap_scan_results.txt) |
 
 > **Training Note:** This portfolio documents hands-on work completed during the **Knowledge House Innovation Fellowship — Cybersecurity Track (2026)**, demonstrating practical experience across Linux, automation, infrastructure hardening, identity management, and reconnaissance.
+
 ---
 
 ## 💬 Connect
