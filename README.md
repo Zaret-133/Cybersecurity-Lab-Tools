@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Cybersecurity-Fellowship-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Cybersecurity-Fellow-blueviolet?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Focus-Security%20Automation-00C853?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Blue%20Team-SOC-0A66C2?style=for-the-badge" />
 </p>
