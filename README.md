@@ -1,15 +1,12 @@
 <h1 align="center">✨ Cybersecurity Portfolio ✨</h1>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=Zaret%20Perez&fontSize=60&animation=fadeIn&fontColor=00F7FF&fontAlignY=35" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=Zaret%20Cortorreal&fontSize=60&animation=fadeIn&fontColor=00F7FF&fontAlignY=35" />
 </p>
-
-<h2 align="center">👩‍💻 Zaret Perez</h2>
 
 <p align="center">
   <b>QA Automation Engineer → Cybersecurity | Security Automation | Blue Team</b>
 </p>
-
 
 ---
 
