@@ -91,7 +91,17 @@ My portfolio focuses on hands-on labs in Linux security, networking, Python auto
 ## 🎓 Training
 
 **Knowledge House Innovation Fellowship — Cybersecurity Track (2026)**
+### 🛡️ Training Roadmap: 20-Week Cybersecurity Fellowship
 
+| Module | Technical Focus | Core Artifact |
+| :--- | :--- | :--- |
+| **Terminal Supremacy** | Linux FHS & Permissions | [discovery.txt](./Week-01-Linux/discovery.txt) |
+| **Automation** | Python Security Tooling | [brute_detector.py](./Week-03-Security-Automation/brute_detector.py) |
+| **Hardening** | Docker & VM Isolation | [docker-compose.yml](./Week-04-Infrastructure-Security/docker-compose.yml) |
+| **Identity** | Active Directory & IAM | [onboard_engineers.ps1](./Week-05-Enterprise-Security/onboard_engineers.ps1) |
+| **Recon** | OSINT & Active Scanning | [nmap_scan_results.txt](./Week-07-Reconnaissance/nmap_scan_results.txt) |
+
+> **Training Note:** This portfolio documents hands-on work completed during the **Knowledge House Innovation Fellowship — Cybersecurity Track (2026)**, demonstrating practical experience across Linux, automation, infrastructure hardening, identity management, and reconnaissance.
 ---
 
 ## 💬 Connect
