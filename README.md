@@ -1,47 +1,40 @@
-<h1 align="center">👩‍💻 Zaret Perez</h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=CYBERSECURITY&fontSize=45&fontColor=00F7FF&animation=fadeIn" />
+</p>
+
+<h2 align="center">👩‍💻 Zaret Perez</h2>
 
 <p align="center">
   <b>Cybersecurity Engineer in Progress | QA Automation → Security</b>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=35&center=true&vCenter=true&width=800&lines=Zaret+Perez;Cybersecurity+Engineer;Security+Automation+%7C+QA+Background" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=25&center=true&vCenter=true&width=600&lines=Threat+Detection;Security+Automation;SOC+Skills+in+Progress;Building+Secure+Systems" />
 </p>
 
-<p align="center">
-  <b>QA Automation Engineer | Cybersecurity Fellow | Security Automation</b>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=25&center=true&vCenter=true&width=600&lines=Cybersecurity+Engineer+in+Progress;QA+Automation+%2B+Security;Building+Security+Tools+with+Python" />
-</p>
 ---
 
 ## 🛡️ About Me
 
 QA Automation Engineer transitioning into Cybersecurity, currently completing the **Knowledge House Innovation Fellowship – Cybersecurity Track**.
 
-Hands-on experience with Linux, networking, Python security automation, Docker, Active Directory, and vulnerability analysis.
+Hands-on experience with:
+- Linux system analysis and security
+- Network troubleshooting and auditing
+- Python-based security automation
+- Docker and infrastructure security
+- Active Directory and enterprise environments
 
-🎯 Currently building skills for:
-- Cybersecurity Analyst
-- SOC Analyst
-- Security Automation
-- QA + Cybersecurity roles
+🎯 Focused on building skills for:
+- SOC Analyst  
+- Cybersecurity Analyst  
+- Security Automation / Blue Team Roles  
 
-📍 Virginia / Open to Remote
+📍 Virginia, USA | Open to Remote Opportunities  
 
 ---
 
-## 🧰 Tools & Technologies
-
-**Languages:** Python · PowerShell · Java · SQL  
-
-**Security & Systems:** Linux · Nmap · Docker · Active Directory · Group Policy  
-
-**Automation & QA:** Selenium · TestNG · Postman · Jenkins · GitHub  
-
-## 🧰 Tools & Technologies
+## 🧰 Skills & Tools
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,linux,docker,git,github,vscode,bash" />
@@ -51,29 +44,39 @@ Hands-on experience with Linux, networking, Python security automation, Docker, 
   <img src="https://img.shields.io/badge/Nmap-Network%20Scanner-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Active%20Directory-Windows-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/PowerShell-Scripting-darkblue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Linux-Security-black?style=for-the-badge" />
 </p>
 
 ---
 
-## 📂 Featured Projects
+## 🚀 Featured Projects
 
 🔍 **Security Automation Toolkit**  
-Python scripts for port checking, log parsing, incident response, and threat reporting.
+Python scripts for port scanning, log analysis, and threat detection  
 
 🌐 **Network Security Analysis**  
-Labs focused on subnetting, DNS auditing, routing, and service enumeration.
+Subnetting, DNS auditing, routing, and service enumeration  
 
-🐳 **Infrastructure Security Labs**  
-Docker, Docker Compose, sandboxing, and virtual machine isolation.
+🐳 **Infrastructure & Docker Security**  
+Container deployment, Docker Compose, and environment isolation  
 
-🏢 **Enterprise Security Labs**  
-Active Directory, PowerShell onboarding, and Group Policy auditing.
+🏢 **Enterprise Security (Active Directory)**  
+User provisioning, Group Policy auditing, and identity management  
 
 ---
 
 ## 🎓 Training
 
-**Knowledge House Innovation Fellowship – Cybersecurity Track (2026)**
+**Knowledge House Innovation Fellowship – Cybersecurity Track (2026)**  
+
+---
+
+## 📈 What This Portfolio Demonstrates
+
+- Hands-on cybersecurity experience  
+- Strong foundation in networking and systems  
+- Ability to automate security tasks  
+- Real-world lab implementation across multiple environments  
 
 ---
 
