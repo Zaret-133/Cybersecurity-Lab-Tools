@@ -4,6 +4,9 @@
   <b>QA Automation Engineer | Cybersecurity Fellow | Security Automation</b>
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=25&center=true&vCenter=true&width=600&lines=Cybersecurity+Engineer+in+Progress;QA+Automation+%2B+Security;Building+Security+Tools+with+Python" />
+</p>
 ---
 
 ## 🛡️ About Me
@@ -29,6 +32,18 @@ Hands-on experience with Linux, networking, Python security automation, Docker, 
 **Security & Systems:** Linux · Nmap · Docker · Active Directory · Group Policy  
 
 **Automation & QA:** Selenium · TestNG · Postman · Jenkins · GitHub  
+
+## 🧰 Tools & Technologies
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,linux,docker,git,github,vscode,bash" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Nmap-Network%20Scanner-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Active%20Directory-Windows-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PowerShell-Scripting-darkblue?style=for-the-badge" />
+</p>
 
 ---
 
