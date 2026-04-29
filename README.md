@@ -32,6 +32,11 @@ My portfolio focuses on hands-on labs in Linux security, networking, Python auto
 
 ---
 
+<p align="center">
+  🚀 Building practical cybersecurity skills through real-world labs and automation
+</p>
+
+---
 ## 🛠️ Toolkit
 
 <p align="center">
