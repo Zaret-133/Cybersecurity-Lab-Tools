@@ -30,7 +30,7 @@ Hands-on experience with:
 - Cybersecurity Analyst  
 - Security Automation / Blue Team Roles  
 
-📍 Virginia, USA | Open to Remote Opportunities  
+🎯 Career Focus: Cybersecurity Analysis | SOC Operations | Security Automation  
 
 ---
 
