@@ -1,11 +1,21 @@
 <h1 align="center">✨ Cybersecurity Portfolio ✨</h1>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=Zaret%20Cortorreal&fontSize=60&animation=fadeIn&fontColor=00F7FF&fontAlignY=35" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=220&section=header&text=Zaret%20Cortorreal&fontSize=65&fontColor=00F7FF&animation=fadeIn&fontAlignY=38&desc=QA%20Automation%20Engineer%20→%20Cybersecurity&descAlignY=55&descSize=18" />
 </p>
 
 <p align="center">
-  <b>QA Automation Engineer → Cybersecurity | Security Automation | Blue Team</b>
+  <b>🔐 Security Automation | 🛡️ Blue Team | ⚙️ SOC Focus</b>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Cybersecurity+Engineer+in+Progress;Turning+Automation+into+Security;Defending+Systems+%7C+Analyzing+Threats;Linux+%7C+Networking+%7C+Docker+%7C+Active+Directory" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/SOC-Blue%20Team-0A66C2?style=for-the-badge&logo=security&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Security-Automation-00C853?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Linux-Networking-FF6F00?style=for-the-badge"/>
 </p>
 
 ---
