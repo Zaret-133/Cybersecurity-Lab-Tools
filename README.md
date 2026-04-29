@@ -34,16 +34,6 @@ User → Linux System → Network Layer → Detection Scripts → Infrastructure
 
 ---
 
-## 🛡️ About Me
-
-I am a QA Automation Engineer transitioning into Cybersecurity through the Knowledge House Innovation Fellowship — Cybersecurity Track, with hands-on experience in security labs, automation, and infrastructure hardening.
-
-My portfolio focuses on hands-on labs in Linux security, networking, Python automation, Docker infrastructure, Active Directory, reconnaissance, and vulnerability analysis.
-
-🎯 **Career Focus:** Cybersecurity Analysis | SOC Operations | Security Automation
-
----
-
 <p align="center">
   🚀 Building practical cybersecurity skills through real-world labs and automation
 </p>
