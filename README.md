@@ -54,65 +54,66 @@ Hands-on experience with:
 <details>
 <summary><b>🔍 Security Automation & Forensic Auditing</b> (Python)</summary>
 
-* [cite_start]**Objective**: Shift from manual operator to builder by codifying security tasks into repeatable, automated instruments[cite: 1962, 1964].
+* **Objective**: Shift from manual operator to builder by codifying security tasks into repeatable, automated security tools.
 * **Key Artifacts**:
-    * [cite_start]`port_check.py`: Custom socket-based scanner to identify open ports on target hosts[cite: 468, 1975].
-    * [cite_start]`brute_detector.py`: Forensic log parser that filters failed password attempts into structured reports[cite: 523, 2192].
-    * [cite_start]`system_auditor.py`: Automation script that detects unauthorized processes and exports machine-readable JSON alerts[cite: 572, 635].
-* [cite_start]**Core Skills**: Logic gates, context managers (File I/O), and subprocess management for real-time system interrogation[cite: 444, 501, 583].
+    * `port_check.py`: Custom socket-based scanner to identify open ports on target hosts.
+    * `brute_detector.py`: Forensic log parser that filters failed password attempts into structured reports.
+    * `system_auditor.py`: Automation script that detects unauthorized processes and exports machine-readable JSON alerts.
+* **Core Skills**: Logic gates, file I/O, context managers, subprocess management, and real-time system interrogation.
 </details>
 
 <details>
 <summary><b>🌐 Network Security & Protocol Interrogation</b> (OSI L1-L7)</summary>
 
-* [cite_start]**Objective**: Master network boundaries and remediate advanced deceptions at the Data Link, Network, and Application layers[cite: 1931, 1942].
+* **Objective**: Master network boundaries and remediate issues across the Data Link, Network, and Application layers.
 * **Key Artifacts**:
-    * [cite_start]`network_audit.txt`: Forensic path restoration and default gateway remediation[cite: 232, 1935].
-    * [cite_start]`subnet_blueprint.txt`: Mathematical network mapping using CIDR notation and binary octet conversion[cite: 244, 1941].
-    * [cite_start]`protocol_audit.txt`: DNS deception remediation and discovery of cloaked services on non-standard ports[cite: 293, 1947].
-* [cite_start]**Core Skills**: Packet tracing, socket statistics, and CIDR boundary analysis[cite: 230, 265, 324].
+    * `network_audit.txt`: Network path restoration and default gateway remediation.
+    * `subnet_blueprint.txt`: CIDR analysis and subnet boundary mapping.
+    * `protocol_audit.txt`: DNS deception remediation and discovery of services on non-standard ports.
+* **Core Skills**: Packet tracing, socket statistics, DNS auditing, routing, and CIDR boundary analysis.
 </details>
 
 <details>
 <summary><b>🐳 Infrastructure Hardening & Virtualization</b> (Docker & Hypervisors)</summary>
 
-* [cite_start]**Objective**: Architect secure enterprise environments using isolated sandboxes and segmented container stacks[cite: 1999, 2004].
+* **Objective**: Architect secure environments using isolated sandboxes and segmented container stacks.
 * **Key Artifacts**:
-    * [cite_start]`docker-compose.yml`: Deployment of an air-gapped WordPress stack with isolated FrontEnd and BackEnd networks[cite: 894, 2025].
-    * [cite_start]`deploy_web.sh`: Bash automation for the rapid deployment and total destruction of disposable web servers[cite: 820, 2020].
-    * [cite_start]`sandbox_report.txt`: Configuration of Host-Only air-gapped environments for safe malware detonation[cite: 737, 2014].
-* [cite_start]**Core Skills**: Container orchestration, network segmentation, and Type 1 vs Type 2 hypervisor configuration[cite: 757, 925, 2011].
+    * `docker-compose.yml`: Air-gapped WordPress stack with isolated FrontEnd and BackEnd networks.
+    * `deploy_web.sh`: Bash automation for deployment and removal of disposable web servers.
+    * `sandbox_report.txt`: Host-Only air-gapped environment configuration for safe sandbox testing.
+* **Core Skills**: Container orchestration, network segmentation, virtualization, and infrastructure hardening.
 </details>
 
 <details>
 <summary><b>🏢 Enterprise Security & Identity Management</b> (Active Directory)</summary>
 
-* [cite_start]**Objective**: Manage the "Identity Perimeter" through centralized governance and unified cross-platform authentication[cite: 2045, 2047].
+* **Objective**: Manage identity and access through centralized governance and cross-platform authentication.
 * **Key Artifacts**:
-    * [cite_start]`onboard_engineers.ps1`: PowerShell automation to programmatically provision users and manage AD hierarchy[cite: 1100, 2060].
-    * [cite_start]`gpo_audit.txt`: Documentation of Group Policy enforcement and the LSDOU inheritance model[cite: 1211, 2065].
-    * [cite_start]`unified_identity.png`: Forensic proof of a Linux-to-Windows bridge using SSSD for unified Kerberos authentication[cite: 1350, 2073].
-* [cite_start]**Core Skills**: Forest/Domain architecture, PowerShell scripting, and cross-OS sudoers bridge configuration[cite: 1148, 1186, 1388].
+    * `onboard_engineers.ps1`: PowerShell automation to provision users and manage Active Directory structure.
+    * `gpo_audit.txt`: Group Policy enforcement documentation and LSDOU inheritance analysis.
+    * `unified_identity.png`: Proof of Linux-to-Windows authentication using SSSD.
+* **Core Skills**: Active Directory, PowerShell scripting, Group Policy, Kerberos concepts, and cross-OS identity integration.
 </details>
 
 <details>
 <summary><b>🎯 Perimeter Reconnaissance & Risk Triage</b> (Sprint 2)</summary>
 
-* [cite_start]**Objective**: Map an organization's digital footprint and prioritize vulnerabilities based on Risk = Likelihood x Impact[cite: 2142, 2145].
+* **Objective**: Map an organization’s digital footprint and prioritize vulnerabilities based on likelihood and impact.
 * **Key Artifacts**:
-    * [cite_start]`ThreatProfile_CloudNano.md`: Passive OSINT mapping of subdomains, tech stacks, and credential leaks[cite: 1807, 2148].
-    * [cite_start]`nmap_scan_results.txt`: Active service interrogation and software version mapping across isolated subnets[cite: 1833, 2152].
-    * [cite_start]`remediation_plan.md`: Strategic triage of scan results into actionable, risk-justified engineering plans[cite: 1859, 2157].
-* [cite_start]**Core Skills**: Passive/Active reconnaissance, CVE/CVSS interpretation, and Nikto web application auditing[cite: 1805, 1851, 2164].
+    * `ThreatProfile_CloudNano.md`: Passive OSINT mapping of subdomains, tech stacks, and exposure points.
+    * `nmap_scan_results.txt`: Active service discovery and version mapping.
+    * `remediation_plan.md`: Risk-based triage and actionable remediation planning.
+* **Core Skills**: Passive/active reconnaissance, vulnerability prioritization, CVE/CVSS interpretation, and web auditing.
 </details>
 
 ---
 
-## 🛠️ Skills & Certifications
-* [cite_start]**Cybersecurity Track**: Knowledge House Innovation Fellowship (2026)[cite: 1, 1412].
-* [cite_start]**Technical Focus**: SOC Analysis, Blue Team Operations, and Security Automation[cite: 1, 1966].
+## 🛠️ Skills & Training
 
+* **Cybersecurity Track**: Knowledge House Innovation Fellowship (2026)
+* **Technical Focus**: SOC Analysis, Blue Team Operations, Security Automation, Linux, Networking, Docker, Active Directory, and Python
 ---
+
 
 ## 🎓 Training
 
