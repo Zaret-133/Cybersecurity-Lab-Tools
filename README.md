@@ -1,6 +1,12 @@
 <h1 align="center">Cybersecurity Portfolio</h1>
 
 <p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A192F,100:0077B6&height=220&section=header&text=Zaret%20Cortorreal&fontSize=65&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=QA%20Automation%20Engineer%20→%20Cybersecurity&descAlignY=55&descSize=18" />
+</p>
+
+<h1 align="center">Cybersecurity Portfolio</h1>
+
+<p align="center">
   <b>QA Automation Engineer transitioning into Cybersecurity</b><br>
   Security Automation • Blue Team • Linux • Networking • SOC Foundations
 </p>
