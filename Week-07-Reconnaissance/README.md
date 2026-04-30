@@ -1,29 +1,110 @@
-# Week 07 - Reconnaissance
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A192F,100:0077B6&height=120&section=header&text=Week%2007%20-%20Reconnaissance%20%26%20Risk%20Analysis&fontSize=30&fontColor=FFFFFF" />
+</p>
 
-## Overview
-This week focused on reconnaissance techniques used to map a target’s digital footprint. The goal was to gather intelligence before any active attack or scanning phase.
+# Week 07 — Reconnaissance & Risk Analysis
 
-## Skills Developed
-- OSINT (Open Source Intelligence)
-- Passive reconnaissance
-- Target footprint mapping
-- Identifying technologies and services
+## 📌 Overview
 
-## Activities Performed
-- Gathered publicly available information about target systems
-- Identified potential entry points and exposed services
-- Analyzed domain and infrastructure footprint
+This week focused on identifying targets, scanning systems, and prioritizing risks based on findings.
 
-## Tools & Techniques
+---
+
+## 🎯 Lab Objective
+
+Understand how to gather information, map attack surfaces, and evaluate vulnerabilities.
+
+---
+
+## 🧠 Lab Overview
+
+👤 User  
+⬇️  
+🌐 Target System  
+⬇️  
+🔍 Scanning  
+⬇️  
+📊 Analysis  
+⬇️  
+🛡️ Risk Prioritization  
+
+---
+
+## 🧩 Lab Components
+
+| Step | Focus |
+| :--- | :--- |
+| 🔍 Recon | Information gathering |
+| 🌐 Scanning | Service discovery |
+| 📊 Analysis | Evaluating findings |
+| ⚠️ Risk | Identifying threats |
+| 🛡️ Response | Planning remediation |
+
+---
+
+## 🧠 Lab Flow
+
+```text
+Target Identification → Scanning → Service Discovery → Risk Analysis → Remediation Planning
+```
+
+---
+
+## 🛠️ Skills Developed
+
+- Performing reconnaissance and information gathering
+- Scanning systems for open ports and services
+- Analyzing vulnerabilities and risks
+- Prioritizing remediation actions
+- Documenting findings clearly
+
+---
+
+## 📂 Projects & Artifacts
+
+| Artifact | Purpose |
+| :--- | :--- |
+| `ThreatProfile_CloudNano.md` | Target profiling and OSINT |
+| `nmap_scan_results.txt` | Service discovery results |
+| `remediation_plan.md` | Risk mitigation strategy |
+
+---
+
+## 🧰 Tools Used
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Nmap-Scanning-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OSINT-Recon-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Risk-Analysis-orange?style=for-the-badge" />
+</p>
+
+- Nmap
 - OSINT techniques
-- DNS and domain lookup concepts
-- Passive information gathering
+- Linux CLI
+- Documentation tools
 
-## Outcome
-- Built a structured understanding of how attackers and defenders gather intelligence
-- Learned how reconnaissance supports vulnerability analysis and penetration testing
+---
 
-## Key Takeaways
-- Reconnaissance is the foundation of any cybersecurity operation
-- Even without direct interaction, valuable data can be collected
-- Understanding a system before scanning reduces noise and improves accuracy
+## 🔐 Security Insight
+
+Reconnaissance is often the first step in an attack.  
+Understanding how systems are discovered helps defenders identify and reduce exposure.
+
+---
+
+## ✅ Key Takeaways
+
+- Learned how attackers gather information
+- Practiced scanning and identifying services
+- Analyzed vulnerabilities and risks
+- Built structured remediation plans
+- Strengthened defensive thinking
+
+---
+
+## 🚀 Next Steps
+
+- Learn vulnerability scanning tools
+- Practice penetration testing basics
+- Study threat intelligence
+- Improve risk prioritization strategies
