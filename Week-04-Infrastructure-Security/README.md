@@ -1,25 +1,109 @@
-# Week 04 - Infrastructure & Container Security
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A192F,100:0077B6&height=120&section=header&text=Week%2004%20-%20Infrastructure%20Security&fontSize=30&fontColor=FFFFFF" />
+</p>
 
-## Overview
-This week focused on securing virtual environments, working with containers, and deploying isolated infrastructure.
+# Week 04 — Infrastructure Security
 
-## Skills Developed
-- Virtual machine security (sandboxing)
-- Docker container deployment and management
-- Container isolation and networking
-- Infrastructure automation
+## 📌 Overview
 
-## Projects & Artifacts
-- sandbox_report.txt → VM isolation and security validation
-- deploy_web.sh → Script to deploy and manage a web server container
-- docker-compose.yml → Multi-container environment configuration
+This week focused on building secure environments using Docker and virtual machines to isolate systems and reduce risk.
 
-## Tools Used
-- VirtualBox
+---
+
+## 🎯 Lab Objective
+
+Understand how to design and secure infrastructure by using containerization and isolation techniques.
+
+---
+
+## 🧠 Lab Overview
+
+👤 User  
+⬇️  
+🐳 Containers  
+⬇️  
+🖥️ Virtual Machines  
+⬇️  
+🔒 Isolation  
+⬇️  
+🛡️ Secure Environment  
+
+---
+
+## 🧩 Lab Components
+
+| Step | Focus |
+| :--- | :--- |
+| 🐳 Docker | Containerized environments |
+| 🖥️ VM | System isolation |
+| 🔒 Segmentation | Network separation |
+| ⚙️ Deployment | Automated setup |
+| 🛡️ Security | Reducing attack surface |
+
+---
+
+## 🧠 Lab Flow
+
+```text
+Environment Setup → Container Deployment → Network Segmentation → Isolation → Security Validation
+```
+
+---
+
+## 🛠️ Skills Developed
+
+- Creating Docker containers and managing environments
+- Understanding system isolation using virtual machines
+- Segmenting services for security
+- Automating deployment with scripts
+- Identifying infrastructure vulnerabilities
+
+---
+
+## 📂 Projects & Artifacts
+
+| Artifact | Purpose |
+| :--- | :--- |
+| `docker-compose.yml` | Defines multi-container architecture |
+| `deploy_web.sh` | Automates deployment of web services |
+| `sandbox_report.txt` | Documents VM isolation and validation |
+
+---
+
+## 🧰 Tools Used
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-Containers-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Linux-Environment-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Bash-Automation-green?style=for-the-badge" />
+</p>
+
 - Docker
-- Docker Compose
+- VirtualBox / VMs
+- Bash scripting
+- Linux CLI
 
-## Key Takeaways
-- Learned how to isolate environments to prevent security risks
-- Deployed and destroyed containers safely
-- Built and managed multi-container architectures
+---
+
+## 🔐 Security Insight
+
+Isolated environments limit the spread of attacks.  
+Containerization and segmentation reduce risk by controlling how services communicate.
+
+---
+
+## ✅ Key Takeaways
+
+- Learned how to build secure environments using Docker
+- Understood the importance of isolation and segmentation
+- Automated deployment processes
+- Strengthened infrastructure security awareness
+
+---
+
+## 🚀 Next Steps
+
+- Explore container security best practices
+- Learn about Kubernetes basics
+- Study cloud infrastructure security
+- Implement monitoring in container environments
