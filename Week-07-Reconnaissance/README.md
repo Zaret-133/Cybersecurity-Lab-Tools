@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A192F,100:0077B6&height=120&section=header&text=Week%2007%20-%20Reconnaissance%20%26%20Risk%20Analysis&fontSize=30&fontColor=FFFFFF" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A192F,100:0077B6&height=120&section=header&text=Week%2007%20-%20Reconnaissance%20and%20Risk%20Analysis&fontSize=30&fontColor=FFFFFF" />
 </p>
 
 # Week 07 — Reconnaissance & Risk Analysis
