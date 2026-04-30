@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A192F,100:0077B6&height=120&section=header&text=Week%2005%20-%20Identity%20%26%20Enterprise%20Security&fontSize=30&fontColor=FFFFFF" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A192F,100:0077B6&height=120&section=header&text=Week%2005%20-%20Identity%20and%20Enterprise%20Security&fontSize=30&fontColor=FFFFFF" />
 </p>
 
 # Week 05 — Enterprise Security & Identity
