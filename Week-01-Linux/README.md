@@ -1,26 +1,22 @@
-# Week 01 - Linux Fundamentals
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A192F,100:0077B6&height=120&section=header&text=Week%2001%20-%20Linux%20Fundamentals&fontSize=30&fontColor=FFFFFF" />
+</p>
 
-## Overview
-This week focused on mastering Linux command-line navigation, file system structure, permissions, and log analysis.
+# Week 01 — Linux Fundamentals
 
-## Skills Developed
-- Linux filesystem navigation (FHS)
-- File and directory permissions (chmod, chown)
-- Log file analysis using grep, awk, and sort
-- Identifying system-level security risks
+## 📌 Overview
 
-## Projects & Artifacts
-- discovery.txt → System navigation and hidden file discovery
-- harden.sh → Script to secure sensitive system files
-- threat_ips.txt → Extracted malicious IP addresses from logs
-- final_threat_report.txt → Cleaned and analyzed threat data
+This week focused on mastering Linux command-line navigation, file system structure, permissions, and basic log analysis.
 
-## Tools Used
-- Linux CLI
-- grep, awk, sort
-- chmod, chown
+---
 
-## Key Takeaways
-- Learned how to navigate restricted directories and extract hidden data
-- Understood the importance of proper file permissions for system security
-- Built foundational log analysis skills for identifying malicious activity
+## 🎯 Lab Objective
+
+Build a strong Linux foundation for cybersecurity by learning how to navigate systems, manage permissions, review logs, and identify security risks.
+
+---
+
+## 🧠 Lab Flow
+
+```text
+Linux Navigation → File Permissions → Log Analysis → Threat Extraction → Final Report
