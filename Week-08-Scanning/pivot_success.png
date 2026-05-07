@@ -1,0 +1,45 @@
+====================================================
+SESSION 24: PROXYCHAINS CONFIGURATION REVIEW
+====================================================
+
+FILE REVIEWED:
+    /etc/proxychains4.conf
+
+PROXY MODES OBSERVED:
+    - dynamic_chain
+    - strict_chain
+    - round_robin_chain
+    - random_chain
+
+DNS SETTINGS:
+    proxy_dns
+    proxy_dns_old
+    proxy_dns_daemon 127.0.0.1:1053
+
+REMOTE DNS SUBNET:
+    remote_dns_subnet 224
+
+TIMEOUT SETTINGS:
+    tcp_read_time_out 15000
+    tcp_connect_time_out 8000
+
+LOCAL NETWORK EXCLUSIONS:
+    localnet 10.0.0.0/255.0.0.0
+    localnet 172.16.0.0/255.240.0.0
+    localnet 192.168.0.0/255.255.0.0
+
+PROXY TYPES SUPPORTED:
+    - http
+    - socks4
+    - socks5
+    - raw
+
+PROXY LIST CONFIGURATION:
+    socks4 127.0.0.1 1080
+
+NOTES:
+    Proxychains was configured to support tunneling traffic
+    through a SOCKS proxy for lateral movement and hidden
+    network enumeration during the pivot operation lab.
+
+====================================================
