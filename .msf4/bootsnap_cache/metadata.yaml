@@ -1,0 +1,8 @@
+---
+metasploit_framework_version: 6.4.132
+ruby_description: ruby 3.4.4 (2025-05-14 revision a38531fd3f) +PRISM [x86_64-linux]
+bundler_lockfile_hash: 7e34aff994a96f984602f7a33c432ff4
+bootsnap_config:
+  load_path_cache: true
+  compile_cache_iseq: false
+  compile_cache_yaml: false

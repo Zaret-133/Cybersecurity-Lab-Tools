@@ -1,0 +1,17 @@
+development: &pgsql
+  adapter: postgresql
+  database: msf
+  username: msf
+  password: lFE9720K0yMww1a3LXtwI4d14VB5laXJrk+LPszaSSM=
+  host: 127.0.0.1
+  port: 5433
+  pool: 200
+
+production: &production
+  <<: *pgsql
+
+test:
+  <<: *pgsql
+  database: msftest
+  username: msftest
+  password: TtPxDkrGJMfKQ/ij6uZmW4vcU2jWe3nQp00FMWGPVlE=

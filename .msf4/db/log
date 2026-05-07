@@ -1,0 +1,25 @@
+2026-05-06 23:32:33.017 UTC [5105] LOG:  starting PostgreSQL 13.6 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit
+2026-05-06 23:32:33.018 UTC [5105] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2026-05-06 23:32:33.024 UTC [5105] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2026-05-06 23:32:33.030 UTC [5106] LOG:  database system was shut down at 2026-05-06 23:32:32 UTC
+2026-05-06 23:32:33.035 UTC [5105] LOG:  database system is ready to accept connections
+2026-05-06 23:32:35.252 UTC [5105] LOG:  received fast shutdown request
+2026-05-06 23:32:35.255 UTC [5105] LOG:  aborting any active transactions
+2026-05-06 23:32:35.257 UTC [5105] LOG:  background worker "logical replication launcher" (PID 5112) exited with exit code 1
+2026-05-06 23:32:35.258 UTC [5107] LOG:  shutting down
+2026-05-06 23:32:35.279 UTC [5105] LOG:  database system is shut down
+2026-05-06 23:32:35.377 UTC [5171] LOG:  starting PostgreSQL 13.6 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit
+2026-05-06 23:32:35.377 UTC [5171] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2026-05-06 23:32:35.383 UTC [5171] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2026-05-06 23:32:35.390 UTC [5172] LOG:  database system was shut down at 2026-05-06 23:32:35 UTC
+2026-05-06 23:32:35.395 UTC [5171] LOG:  database system is ready to accept connections
+2026-05-07 00:20:48.128 UTC [5171] LOG:  received smart shutdown request
+2026-05-07 00:20:48.140 UTC [5171] LOG:  received SIGHUP, reloading configuration files
+2026-05-07 00:20:48.157 UTC [5171] LOG:  background worker "logical replication launcher" (PID 5178) exited with exit code 1
+2026-05-07 00:20:48.160 UTC [5173] LOG:  shutting down
+2026-05-07 00:20:48.274 UTC [5171] LOG:  database system is shut down
+2026-05-07 19:09:17.957 UTC [98701] LOG:  starting PostgreSQL 13.6 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit
+2026-05-07 19:09:17.957 UTC [98701] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2026-05-07 19:09:17.964 UTC [98701] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2026-05-07 19:09:17.971 UTC [98702] LOG:  database system was shut down at 2026-05-07 00:20:48 UTC
+2026-05-07 19:09:17.976 UTC [98701] LOG:  database system is ready to accept connections
