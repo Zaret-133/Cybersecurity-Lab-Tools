@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B132B,100:1C7293&height=220&section=header&text=Week%2010%20-%20The%20Defender&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Digital%20Forensics%20%26%20Incident%20Response&descAlignY=58&descSize=20" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:071A2D,100:0B84B5&height=120&section=header&text=Week%2010%20-%20The%20Defender%20DFIR&fontSize=35&fontColor=ffffff&fontAlignY=50" />
 </p>
 
 # 🛡️ Week 10 — The Defender (DFIR)
