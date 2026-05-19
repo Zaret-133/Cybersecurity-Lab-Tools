@@ -89,7 +89,7 @@ On May 19, 2026, a critical security incident was identified on the enterprise n
 ---
 
 
-## í ½íº€ FINAL COMMAND SUMMARY
+## ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ FINAL COMMAND SUMMARY
 
 * **Incident Submission Tracker:** `session-submit --session tlab10 --artifact ~/Incident_Response_Report.md`
 
