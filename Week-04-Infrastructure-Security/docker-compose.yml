@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+ wordpress:
+  image: wordpress
+  ports:
+    - "8080:80"
+  networks:
+   - frontend
+   - backend
+
+ db:
+   image: mysql:5.7
+   enviroment:
+    MYSQL_ROOT_PASSWORD: password
+   networks:
+    - backend
+
+networks:
+  frontend:
+  backend:
+    internal: true

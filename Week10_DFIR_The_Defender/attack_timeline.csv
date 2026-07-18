@@ -1,0 +1,7 @@
+Timestamp,Source IP,Event Type,Action,Description
+
+2026-04-30T10:18:00Z,198.51.100.44,Failed Login,Initial Access,Authentication failed for user: admin
+
+2026-04-30T10:25:00Z,10.0.5.15,Windows Security,Lateral Movement,Event ID 4624: Successful Logon; escalated to Domain Admin
+
+2026-04-30T10:45:00Z,10.0.5.15,Firewall,Exfiltration,Outbound traffic anomalous volume: 4.5 GB transferred over port 443

