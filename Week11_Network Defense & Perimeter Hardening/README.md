@@ -1,85 +1,126 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:071A2D,100:0B84B5&height=120&section=header&text=Week%2011%20-%20Network%20Defense%20%26%20Perimeter&fontSize=32&fontColor=ffffff&fontAlignY=50" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:071A2D,100:0B84B5&height=120&section=header&text=Week%2011%20-%20The%20Fortress&fontSize=35&fontColor=ffffff&fontAlignY=50" />
 </p>
 
-# 🛡️ Week 11 — Network Defense & Perimeter Security
+# 🏰 Week 11 — The Fortress
+
+**Focus: Network Defense & Perimeter Hardening**
 
 ---
 
-# 📌 Overview
+## 📌 Overview
 
-This week focused on perimeter defense, network traffic inspection, intrusion detection, and endpoint hardening. The objective was to design, deploy, and validate multi-layered defensive controls—combining firewall rule automation, custom Intrusion Detection System (IDS) signatures, and Endpoint Detection and Response (EDR) policies to detect and mitigate malicious network activities.
+Week 11 focused on network defense and perimeter hardening through a defense-in-depth approach. The labs moved from identifying vulnerabilities to implementing security controls designed to detect, restrict, and respond to malicious activity across the perimeter, network, and endpoint layers.
 
----
-
-# 🎯 Lab Objective
-
-Learn how security engineers and SOC analysts construct perimeter defenses, inspect network telemetry, deploy automated firewall filtering rules, configure EDR enforcement policies, and engineer custom detection signatures to thwart active threats.
+The week combined firewall engineering, network intrusion detection, and endpoint monitoring into a layered defensive architecture.
 
 ---
 
-# 🧠 Skills Developed
+## 🎯 Lab Objective
 
-- Perimeter Security & Defense-in-Depth
-- Firewall Rule Automation & IPTables/UFW Configuration
-- Intrusion Detection System (IDS/IPS) Signature Engineering
-- EDR Policy Design & Host Protection
-- Network Traffic Analysis & Telemetry Inspection
-- Signature-Based Threat Detection
-- Rule Testing & Validation Against Simulated Attacks
+Build and configure multiple layers of network defense to reduce attack exposure, monitor malicious activity, and detect suspicious behavior across network and endpoint environments.
 
 ---
 
-# 🧰 Tools & Technologies
+## 🧠 Skills Developed
 
-| Tool | Purpose |
-|------|----------|
-| Linux Bash Shell | Automated Firewall Provisioning (`firewall_config.sh`) |
-| Suricata / Snort | Custom IDS Signatures (`custom_ids.rules`) |
-| EDR Platform / XML | Host Protection & Process Auditing (`edr_policy.xml`) |
-| TCPDump / Wireshark | Packet Capture & Network Traffic Analysis |
-| IPTables / UFW | Network Layer Packet Filtering & Perimeter Control |
-
----
-
-# 🧱 Core Defensive Modules
-
-### 1. Perimeter Defense & Firewall Automation (`firewall_config.sh`)
-- Automated packet-filtering rules to drop unauthorized inbound traffic and isolate high-risk subnets.
-- Restricted exposed ports and enforced strict default-deny egress/ingress policies.
-
-### 2. Intrusion Detection Engineering (`custom_ids.rules`)
-- Authored custom IDS/IPS detection signatures to catch malicious payload patterns, port sweeps, and C2 traffic.
-- Tested rule specificity to minimize false positives while maintaining high detection fidelity.
-
-### 3. Endpoint Detection & Response (`edr_policy.xml`)
-- Configured XML-based EDR rule sets to monitor suspicious parent-child process relationships.
-- Implemented behavioral detection baselines to intercept privilege escalation and unauthorized file tampering.
+* Defense-in-Depth Architecture
+* Network Segmentation
+* DMZ Architecture
+* Firewall Configuration
+* Egress Filtering
+* Network Intrusion Detection
+* IDS Signature Creation
+* Security Alert Analysis
+* Endpoint Monitoring
+* Process & Command-Line Tracking
+* Ransomware Behavior Detection
 
 ---
 
-# 🔍 Network Defense Operations
+## 🧰 Tools & Technologies
 
-Executed active defensive testing and telemetry validation:
-- Validated firewall rule execution against simulated scanning activity.
-- Triggered custom IDS signatures and analyzed resulting alert logs.
-- Confirmed host containment and behavioral blocking through EDR policy enforcement.
+| Tool            | Purpose                            |
+| --------------- | ---------------------------------- |
+| Ubuntu Linux    | Defensive Workstation              |
+| Docker          | DMZ Sandbox & IDS Containers       |
+| UFW / iptables  | Firewall & Egress Filtering        |
+| Suricata        | Network Intrusion Detection        |
+| SysmonForLinux  | Endpoint Activity Monitoring       |
+| PowerShell Core | Endpoint Configuration & Analysis  |
+| XML             | EDR Detection Policy Configuration |
 
 ---
 
-# 🏆 Key Takeaway
+## 🏗️ Session 31 — The Barricade
 
-Week 11 delivered practical, engineering-focused experience in designing resilient network perimeters. It bridged the gap between passive network monitoring and active defense by writing actionable detection rules, enforcing strict firewall filters, and hardening endpoints against evasive adversary techniques.
+Focused on perimeter security and network segmentation:
+
+* Configured UFW and iptables firewall controls
+* Practiced egress filtering
+* Built a DMZ architecture using Docker subnets
+* Isolated web-facing systems from internal resources
+* Applied firewall rules designed to restrict unauthorized outbound communication
 
 ---
 
-# 📂 Repository Structure
+## 🪤 Session 32 — The Tripwire
 
-```bash
-Week11_Network_Defense_Perimeter/
-│
-├── README.md
-├── custom_ids.rules
-├── edr_policy.xml
-├── firewall_config.sh
-└── Week11_Netwofense_Operations/
+Focused on network intrusion detection:
+
+* Deployed Suricata as an IDS sensor
+* Created custom IDS signatures
+* Monitored network traffic for malicious payloads
+* Reviewed Suricata `fast.log` alerts
+* Practiced identifying activity that triggered detection rules
+
+---
+
+## 🔬 Session 33 — The Last Mile
+
+Focused on endpoint monitoring and detection:
+
+* Deployed SysmonForLinux
+* Monitored process creation and command-line execution
+* Examined endpoint activity for suspicious behavior
+* Created an XML detection policy
+* Practiced detecting ransomware precursor behavior
+
+---
+
+## 🛡️ Take-Home Lab — Operation Fortress
+
+Operation Fortress combined the week's defensive controls into a unified Defense-in-Depth architecture.
+
+The project incorporated:
+
+* Egress firewall controls
+* Custom Suricata IDS signatures
+* Network alert monitoring
+* SysmonForLinux endpoint monitoring
+* XML-based EDR detection policy
+* Ransomware behavior detection
+
+The lab demonstrated how multiple security controls can work together across the perimeter, network, and endpoint layers rather than relying on a single defensive mechanism.
+
+---
+
+## 📂 Project Artifacts
+
+Key artifacts produced during the project include:
+
+```text
+custom_ids.rules
+edr_policy.xml
+firewall_config.sh
+```
+
+These artifacts document the firewall, IDS, and endpoint-detection controls configured during the lab.
+
+---
+
+## 🏆 Key Takeaway
+
+Week 11 provided hands-on experience building layered network defenses and demonstrated how firewall controls, IDS monitoring, and endpoint detection can work together to identify and restrict malicious activity.
+
+Operation Fortress strengthened my understanding of defense-in-depth and gave me practical exposure to the types of network and endpoint security controls used in security operations environments.
